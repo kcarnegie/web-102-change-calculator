@@ -1,0 +1,68 @@
+h1 {
+    font-size: 60px;
+    color: rgb(121, 75, 43);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 300px;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid rgb(121, 75, 43);
+    background-color: transparent;
+    height: 30px;
+    width: 80px;
+    color: rgb(121, 75, 43);
+    font-size: 20px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 1em;
+}
+
+body {
+    text-align: center; 
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px; 
+    flex-direction: row;
+    background-color: bisque;
+    color: rgb(121, 75, 43);
+}
+
+label.amountrec {
+    margin-right: 1.5em;
+}
+    label.amountdue {
+        margin-right: 3em;
+    }
+
+.notes {
+    flex-direction: row;
+}
+
+
+img {
+    max-height: 45px;
+}
+
+
+* {
+    margin: 1px;
+    padding: 1px;  
+}
+
+
+
+
+
+
+
+
+
+

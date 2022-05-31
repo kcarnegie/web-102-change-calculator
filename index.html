@@ -3,11 +3,80 @@
   <head>
     <meta charset="utf-8">
     <title>Change Calculator</title>
-  </head>
-  <body>
-    <!-- Write your markup here -->
+    <link rel="stylesheet" href="style.css">
 
-    <!-- Don't forget to add your <script> tag here -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+
+    <script src="main.js" defer></script>
+    <html lang="en-US">
+    
+    <div class="overlay"></div>
+  
+  </head>
+
+    <h1>Change Calculator</h1>
+  
+    
+    <body>
+
+      <form>
+      
+      
+      <p>
+          <label class="amountdue" for="amount-due">Amount Due:</label>
+          
+          <input type="number" step=".01" id="amount-due" class="amount-due">
+          
+        </p>
+        <p>
+          <label class="amountrec" for="amount-received">Amount Received:</label>
+          
+          <input type="number" step=".01" id="amount-received" class="amount-received">
+          
+        </p>
+        <p class="button" id="output"></p>
+        <button type="button" id="calculate-change" onclick="handleClickEvent()">Calculate</button>
+
+        <p id="change-output"></p>
+        
+      </form>
+      
+    <section id="Notes">
+
+      <img src="./Images/twenty.png">
+      <p class="twenty" id="twenties-output">0</p>
+      
+      <img src="./Images/ten.jpeg">
+      <p class="ten" id="tens-output">0</p>
+      
+      <img src="./Images/five.jpeg">
+      <p class="five" id="fives-output">0</p>
+      
+      <img src="./Images/two.jpeg">
+      <p class="two" id="twos-output">0</p>
+      
+      <img src="./Images/one.jpeg">
+      <p class="one" id="dollars-output">0</p>
+    
+    </section>
+    <section id="Coins">
+      
+      <img src="./Images/quarter.gif">
+      <p class ="quarters" id="quarters-output">0</p>
+      
+      <img src="./Images/dime.gif">
+      <p  class ="dimes" id="dimes-output">0</p>
+      
+      <img src="./Images/nickel.gif">
+      <p class ="nickels" id="nickels-output">0</p>
+      
+      <img src="./Images/penny.gif">
+      <p class ="pennies" id="pennies-output">0</p>
+   
+    </section>
 
   </body>
 </html>
